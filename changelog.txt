@@ -1,0 +1,7 @@
+Constructor changelog file
+--------------------------
+          v1.8
+
+1 - Task "Gkey" now generated new key format
+
+2 - Fixed output of package installation +-
