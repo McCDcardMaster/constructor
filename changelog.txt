@@ -1,7 +1,31 @@
 Constructor changelog file
 --------------------------
-          v1.8
+          v1.9
 
-1 - Task "Gkey" now generated new key format
+1 - Changed the "build.spec" file setting
 
-2 - Fixed output of package installation +-
+2 - Constructor version 1.9 is now compatible with Constructor ToolMaker, 
+	but it can also be used to build older versions 
+		(Starting with 1.6-1.7)
+
+3 - Now the program automatically creates an "opensource" file 
+		when building a project to EXE in IDE
+		
+4 - Added lib "configparser" for .ini files.
+
+5 - Now the name of the .win file is the name of the .gp project, 
+	however if the .gp project does not exist, 
+		the name will still be data.win
+
+6 - Removed the security key output from the console.
+
+7 - build.spec file now also sets the name 
+	from the .gp project to launch the game
+	
+8 - The interface has been updated.
+
+9 - Added a new script Syntax.py - It contains a parser 
+	for correctly writing dependencies.settings 
+		of the new syntax.
+		
+10 - Fixed some methods in the "tasks" command.
